@@ -1,0 +1,47 @@
+==============================================================================
+Inputbox                                                                      
+==============================================================================
+TestingInputBox                                                         
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Inputbox.robot:9
+    T:  TestingInputBox    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Inputbox.robot:16
+      Element Should Not Be Visible    ${"Username_text"} # negative test case
+      |  ${"Username_text"} # negative test case = //input[@id='username'] # negative test case (str)
+______________________________________________________________________________
+| FAIL |
+InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //input[@id='username'] # negative test case because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='username'] # negative test case' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639953ab1]
+	(No symbol) [0x0x7ff639956b0c]
+	(No symbol) [0x0x7ff639956bdf]
+	(No symbol) [0x0x7ff6399a2807]
+	(No symbol) [0x0x7ff6399a320c]
+	(No symbol) [0x0x7ff6399f65e7]
+	(No symbol) [0x0x7ff6399cb17f]
+	(No symbol) [0x0x7ff6399f33d0]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+------------------------------------------------------------------------------
+Inputbox                                                              | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\Results\pabot_results\0\output.xml

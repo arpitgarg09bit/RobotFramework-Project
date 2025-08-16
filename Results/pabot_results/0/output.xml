@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-08-16T15:50:50.077285" rpa="false" schemaversion="5">
+<suite id="s1" name="Inputbox" source="C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Inputbox.robot">
+<test id="s1-t1" name="TestingInputBox" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:50:50.544679" level="INFO">Opening browser 'chrome' to base url 'https://practicetestautomation.com/practice-test-login/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:50:50.544219" elapsed="6.686466"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-16T15:50:57.231002" elapsed="0.046195"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:50:57.292085" level="INFO">Page title is 'Test Login | Practice Test Automation'.</msg>
+<arg>Test Login | Practice Test Automation</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2025-08-16T15:50:57.277504" elapsed="0.014711"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-08-16T15:50:57.292809" level="INFO">${"Username_text"} = //input[@id='username']</msg>
+<var>${"Username_text"}</var>
+<arg>//input[@id='username']</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-08-16T15:50:57.292450" elapsed="0.000407"/>
+</kw>
+<kw name="Element Should Not Be Visible" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:50:57.605655" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-08-16T15:50:57.606014" level="FAIL">InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //input[@id='username'] # negative test case because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='username'] # negative test case' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639953ab1]
+	(No symbol) [0x0x7ff639956b0c]
+	(No symbol) [0x0x7ff639956bdf]
+	(No symbol) [0x0x7ff6399a2807]
+	(No symbol) [0x0x7ff6399a320c]
+	(No symbol) [0x0x7ff6399f65e7]
+	(No symbol) [0x0x7ff6399cb17f]
+	(No symbol) [0x0x7ff6399f33d0]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</msg>
+<arg>${"Username_text"} # negative test case</arg>
+<doc>Verifies that the element identified by ``locator`` is NOT visible.</doc>
+<status status="FAIL" start="2025-08-16T15:50:57.293033" elapsed="0.325996">InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //input[@id='username'] # negative test case because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='username'] # negative test case' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639953ab1]
+	(No symbol) [0x0x7ff639956b0c]
+	(No symbol) [0x0x7ff639956bdf]
+	(No symbol) [0x0x7ff6399a2807]
+	(No symbol) [0x0x7ff6399a320c]
+	(No symbol) [0x0x7ff6399f65e7]
+	(No symbol) [0x0x7ff6399cb17f]
+	(No symbol) [0x0x7ff6399f33d0]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>${"Username_text"}</arg>
+<arg>student</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-08-16T15:50:57.619589" elapsed="0.000166"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-08-16T15:50:57.620018" elapsed="0.000134"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>${"Username_text"}</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-08-16T15:50:57.620390" elapsed="0.000120"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-08-16T15:50:57.620744" elapsed="0.000159"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2025-08-16T15:50:57.621133" elapsed="0.000123"/>
+</kw>
+<status status="FAIL" start="2025-08-16T15:50:50.543104" elapsed="7.078537">InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //input[@id='username'] # negative test case because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='username'] # negative test case' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639953ab1]
+	(No symbol) [0x0x7ff639956b0c]
+	(No symbol) [0x0x7ff639956bdf]
+	(No symbol) [0x0x7ff6399a2807]
+	(No symbol) [0x0x7ff6399a320c]
+	(No symbol) [0x0x7ff6399f65e7]
+	(No symbol) [0x0x7ff6399cb17f]
+	(No symbol) [0x0x7ff6399f33d0]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</test>
+<status status="FAIL" start="2025-08-16T15:50:50.107986" elapsed="7.515308"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Inputbox" id="s1" pass="0" fail="1" skip="0">Inputbox</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
