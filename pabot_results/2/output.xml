@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-08-16T15:44:07.805875" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="CloseAll" source="C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\CloseAll.robot">
+<test id="s1-s1-t1" name="MyTest Case" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:08.629426" level="INFO">Opening browser 'chrome' to base url 'https://demowebshop.tricentis.com/register'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:44:08.628562" elapsed="7.304322"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-16T15:44:15.933337" elapsed="0.084740"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:16.019393" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${url1}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:44:16.018597" elapsed="13.756317"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-16T15:44:29.775468" elapsed="0.056045"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-08-16T15:44:29.832005" elapsed="10.940212"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:08.626874" elapsed="32.145773"/>
+</test>
+<status status="PASS" start="2025-08-16T15:44:07.905460" elapsed="32.867969"/>
+</suite>
+<status status="PASS" start="2025-08-16T15:44:07.868831" elapsed="32.906250"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="CloseAll" id="s1-s1" pass="1" fail="0" skip="0">Suites.CloseAll</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-16T15:44:07.792464" level="WARN">Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

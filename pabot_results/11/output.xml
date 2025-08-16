@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-08-16T15:46:01.612005" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="ImplicitwaittimeTest" source="C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\ImplicitwaittimeTest.robot">
+<test id="s1-s1-t1" name="RegTest" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:46:05.007265" level="INFO">Opening browser 'chrome' to base url 'https://demowebshop.tricentis.com/register'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:46:05.006353" elapsed="21.314833"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-16T15:46:26.322201" elapsed="0.617352"/>
+</kw>
+<kw name="Get Selenium Timeout" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:46:26.940559" level="INFO">${timeout} = 5 seconds</msg>
+<var>${timeout}</var>
+<doc>Gets the timeout that is used by various keywords.</doc>
+<status status="PASS" start="2025-08-16T15:46:26.939976" elapsed="0.000687"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${timeout}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-16T15:46:26.940985" elapsed="0.000759"/>
+</kw>
+<kw name="Set Selenium Timeout" owner="SeleniumLibrary">
+<arg>10 seconds</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" start="2025-08-16T15:46:26.942091" elapsed="0.005843"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Register</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2025-08-16T15:46:26.948352" elapsed="0.265873"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:46:27.215059" level="INFO">Selecting 'M' from radio button 'Gender'.</msg>
+<arg>Gender</arg>
+<arg>M</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2025-08-16T15:46:27.214635" elapsed="0.554734"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:46:27.770774" level="INFO">Typing text 'Arpit' into text field 'name:FirstName'.</msg>
+<arg>name:FirstName</arg>
+<arg>Arpit</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:46:27.769816" elapsed="0.570146"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:46:28.341145" level="INFO">Typing text 'Garg' into text field 'name:LastName'.</msg>
+<arg>name:LastName</arg>
+<arg>Garg</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:46:28.340416" elapsed="0.703854"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:46:29.045303" level="INFO">Typing text 'abc@gmail.com' into text field 'name:Email'.</msg>
+<arg>name:Email</arg>
+<arg>abc@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:46:29.044752" elapsed="7.553736"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:46:36.601317" level="INFO">Typing text 'ArpitGarg' into text field 'name:Password'.</msg>
+<arg>name:Password</arg>
+<arg>ArpitGarg</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:46:36.598932" elapsed="5.865962"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:46:42.466206" level="INFO">Typing text 'ArpitGarg' into text field 'name:ConfirmPassword'.</msg>
+<arg>name:ConfirmPassword</arg>
+<arg>ArpitGarg</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:46:42.465563" elapsed="4.132550"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:46:05.002942" elapsed="41.595585"/>
+</test>
+<status status="PASS" start="2025-08-16T15:46:01.797368" elapsed="44.802452"/>
+</suite>
+<status status="PASS" start="2025-08-16T15:46:01.723907" elapsed="44.878818"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="ImplicitwaittimeTest" id="s1-s1" pass="1" fail="0" skip="0">Suites.ImplicitwaittimeTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-16T15:46:01.599228" level="WARN">Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

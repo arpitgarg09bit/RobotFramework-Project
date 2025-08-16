@@ -1,0 +1,27 @@
+[ WARN ] Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+
+[ WARN ] Multiple tests with name 'LoginTestwithExcel' executed in suite 'Suites.DDT2 Excel'.
+[ WARN ] Multiple tests with name 'LoginTestwithExcel' executed in suite 'Suites.DDT2 Excel'.

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-08-16T15:44:11.690034" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="DDT1" source="C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\DDT1.robot">
+<kw name="open my browser" owner="login_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:13.680313" level="INFO">Opening browser 'chrome' to base url 'https://practicetestautomation.com/practice-test-login/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:44:13.679506" elapsed="7.992590"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-16T15:44:21.672570" elapsed="0.151647"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:13.677763" elapsed="8.146858"/>
+</kw>
+<test id="s1-s1-t1" name="Right user empty password" line="14">
+<kw name="Invalid login">
+<kw name="Input username" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:21.835821" level="INFO">Typing text 'student' into text field 'xpath://input[@id='username']'.</msg>
+<arg>xpath://input[@id='username']</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:21.834633" elapsed="1.660112"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:26.497652" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:23.495164" elapsed="3.002854"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2025-08-16T15:44:21.833201" elapsed="4.665281"/>
+</kw>
+<kw name="Input password" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:26.504211" level="INFO">Typing text '' into text field 'xpath://input[@id='password']'.</msg>
+<arg>xpath://input[@id='password']</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:26.503037" elapsed="0.284371"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:28.789079" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:26.787938" elapsed="2.001362"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2025-08-16T15:44:26.501328" elapsed="2.288241"/>
+</kw>
+<kw name="Click Login Button" owner="login_resources">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:28.794245" level="INFO">Clicking element 'xpath://button[@id='submit']'.</msg>
+<arg>xpath://button[@id='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:28.790800" elapsed="0.197484"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:28.789935" elapsed="0.198728"/>
+</kw>
+<kw name="Error message should be visible" owner="login_resources">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:29.031991" level="INFO">Current page contains text 'Your password is invalid!'.</msg>
+<arg>Your password is invalid!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-08-16T15:44:28.990087" elapsed="0.042043"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:28.989132" elapsed="0.043155"/>
+</kw>
+<arg>student</arg>
+<arg>${EMPTY}</arg>
+<status status="PASS" start="2025-08-16T15:44:21.826683" elapsed="7.205727"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:21.824935" elapsed="7.207765"/>
+</test>
+<test id="s1-s1-t2" name="Right user wrong password" line="15">
+<kw name="Invalid login">
+<kw name="Input username" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:29.037051" level="INFO">Typing text 'student' into text field 'xpath://input[@id='username']'.</msg>
+<arg>xpath://input[@id='username']</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:29.036480" elapsed="0.400324"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:32.438308" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:29.437205" elapsed="3.001330"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2025-08-16T15:44:29.035710" elapsed="3.403103"/>
+</kw>
+<kw name="Input password" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:32.442147" level="INFO">Typing text 'xyz' into text field 'xpath://input[@id='password']'.</msg>
+<arg>xpath://input[@id='password']</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:32.441017" elapsed="0.825572"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:35.267952" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:33.266996" elapsed="2.001276"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2025-08-16T15:44:32.439226" elapsed="2.829324"/>
+</kw>
+<kw name="Click Login Button" owner="login_resources">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:35.272715" level="INFO">Clicking element 'xpath://button[@id='submit']'.</msg>
+<arg>xpath://button[@id='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:35.270913" elapsed="0.291051"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:35.268990" elapsed="0.293274"/>
+</kw>
+<kw name="Error message should be visible" owner="login_resources">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:35.610902" level="INFO">Current page contains text 'Your password is invalid!'.</msg>
+<arg>Your password is invalid!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-08-16T15:44:35.563435" elapsed="0.047699"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:35.562681" elapsed="0.048698"/>
+</kw>
+<arg>student</arg>
+<arg>xyz</arg>
+<status status="PASS" start="2025-08-16T15:44:29.034819" elapsed="6.576739"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:29.033429" elapsed="6.578461"/>
+</test>
+<test id="s1-s1-t3" name="Wrong user right password" line="16">
+<kw name="Invalid login">
+<kw name="Input username" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:35.616218" level="INFO">Typing text 'student1' into text field 'xpath://input[@id='username']'.</msg>
+<arg>xpath://input[@id='username']</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:35.615537" elapsed="0.410807"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:39.028036" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:36.026929" elapsed="3.001558"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2025-08-16T15:44:35.614629" elapsed="3.414092"/>
+</kw>
+<kw name="Input password" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:39.030396" level="INFO">Typing text 'Password123' into text field 'xpath://input[@id='password']'.</msg>
+<arg>xpath://input[@id='password']</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:39.029878" elapsed="0.156378"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:41.186967" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:39.186501" elapsed="2.000668"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2025-08-16T15:44:39.029090" elapsed="2.158318"/>
+</kw>
+<kw name="Click Login Button" owner="login_resources">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:41.188838" level="INFO">Clicking element 'xpath://button[@id='submit']'.</msg>
+<arg>xpath://button[@id='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:41.188358" elapsed="0.170582"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:41.187742" elapsed="0.171482"/>
+</kw>
+<kw name="Error message should be visible" owner="login_resources">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:41.457737" level="INFO">Current page contains text 'Your password is invalid!'.</msg>
+<arg>Your password is invalid!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-08-16T15:44:41.366976" elapsed="0.091196"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:41.359609" elapsed="0.098841"/>
+</kw>
+<arg>student1</arg>
+<arg>Password123</arg>
+<status status="PASS" start="2025-08-16T15:44:35.613621" elapsed="5.845024"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:35.612623" elapsed="5.846490"/>
+</test>
+<test id="s1-s1-t4" name="Wrong user empty password" line="17">
+<kw name="Invalid login">
+<kw name="Input username" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:41.485416" level="INFO">Typing text 'student1' into text field 'xpath://input[@id='username']'.</msg>
+<arg>xpath://input[@id='username']</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:41.479541" elapsed="0.268388"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:44.749356" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:41.748429" elapsed="3.001130"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2025-08-16T15:44:41.478501" elapsed="3.271293"/>
+</kw>
+<kw name="Input password" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:44.751258" level="INFO">Typing text '' into text field 'xpath://input[@id='password']'.</msg>
+<arg>xpath://input[@id='password']</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:44.750628" elapsed="0.175944"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:46.947873" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:44.927001" elapsed="2.021134"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2025-08-16T15:44:44.750092" elapsed="2.198292"/>
+</kw>
+<kw name="Click Login Button" owner="login_resources">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:46.950204" level="INFO">Clicking element 'xpath://button[@id='submit']'.</msg>
+<arg>xpath://button[@id='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:46.949568" elapsed="2.197168"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:46.948749" elapsed="2.198316"/>
+</kw>
+<kw name="Error message should be visible" owner="login_resources">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:49.223366" level="INFO">Current page contains text 'Your password is invalid!'.</msg>
+<arg>Your password is invalid!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-08-16T15:44:49.148511" elapsed="0.075097"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:49.147509" elapsed="0.076372"/>
+</kw>
+<arg>student1</arg>
+<arg>${EMPTY}</arg>
+<status status="PASS" start="2025-08-16T15:44:41.460896" elapsed="7.763182"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:41.459972" elapsed="7.764627"/>
+</test>
+<test id="s1-s1-t5" name="Wrong user wrong password" line="18">
+<kw name="Invalid login">
+<kw name="Input username" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:49.230438" level="INFO">Typing text 'student1' into text field 'xpath://input[@id='username']'.</msg>
+<arg>xpath://input[@id='username']</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:49.229390" elapsed="0.496358"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:52.727263" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:49.726182" elapsed="3.001222"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2025-08-16T15:44:49.227912" elapsed="3.499647"/>
+</kw>
+<kw name="Input password" owner="login_resources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:52.728681" level="INFO">Typing text 'admin23' into text field 'xpath://input[@id='password']'.</msg>
+<arg>xpath://input[@id='password']</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:52.728337" elapsed="0.138123"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-08-16T15:44:54.867555" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-08-16T15:44:52.866740" elapsed="2.001102"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2025-08-16T15:44:52.727802" elapsed="2.140340"/>
+</kw>
+<kw name="Click Login Button" owner="login_resources">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:54.870163" level="INFO">Clicking element 'xpath://button[@id='submit']'.</msg>
+<arg>xpath://button[@id='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:44:54.869461" elapsed="0.196563"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:54.868632" elapsed="0.197676"/>
+</kw>
+<kw name="Error message should be visible" owner="login_resources">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:44:55.118262" level="INFO">Current page contains text 'Your password is invalid!'.</msg>
+<arg>Your password is invalid!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-08-16T15:44:55.067478" elapsed="0.051032"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:55.066671" elapsed="0.052092"/>
+</kw>
+<arg>student1</arg>
+<arg>admin23</arg>
+<status status="PASS" start="2025-08-16T15:44:49.226876" elapsed="5.892066"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:49.225702" elapsed="5.893541"/>
+</test>
+<kw name="Close Browsers" owner="login_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-08-16T15:44:55.121396" elapsed="5.168134"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:55.120643" elapsed="5.169171"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:44:11.925559" elapsed="48.364427"/>
+</suite>
+<status status="PASS" start="2025-08-16T15:44:11.882682" elapsed="48.409432"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="5" fail="0" skip="0">Suites</stat>
+<stat name="DDT1" id="s1-s1" pass="5" fail="0" skip="0">Suites.DDT1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-16T15:44:11.580374" level="WARN">Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

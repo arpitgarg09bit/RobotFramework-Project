@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-08-16T15:45:24.149789" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Frames" source="C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Frames.robot">
+<test id="s1-s1-t1" name="TestingFrames" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:45:25.050682" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/nestedframes'.</msg>
+<arg>${url1}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:45:25.049847" elapsed="24.271232"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-16T15:45:49.321625" elapsed="0.378419"/>
+</kw>
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:45:49.701331" level="INFO">Selecting frame 'frame1'.</msg>
+<arg>frame1</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2025-08-16T15:45:49.700483" elapsed="3.865811"/>
+</kw>
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:45:53.567188" level="INFO">Selecting frame 'Child Iframe'.</msg>
+<msg time="2025-08-16T15:45:54.175218" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-08-16T15:45:54.175601" level="FAIL">Element with locator 'Child Iframe' not found.</msg>
+<arg>Child Iframe</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="FAIL" start="2025-08-16T15:45:53.566665" elapsed="0.619756">Element with locator 'Child Iframe' not found.</status>
+</kw>
+<status status="FAIL" start="2025-08-16T15:45:25.043691" elapsed="29.143361">Element with locator 'Child Iframe' not found.</status>
+</test>
+<status status="FAIL" start="2025-08-16T15:45:24.270973" elapsed="29.917716"/>
+</suite>
+<status status="FAIL" start="2025-08-16T15:45:24.217314" elapsed="29.973046"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="Frames" id="s1-s1" pass="0" fail="1" skip="0">Suites.Frames</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-16T15:45:24.137769" level="WARN">Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

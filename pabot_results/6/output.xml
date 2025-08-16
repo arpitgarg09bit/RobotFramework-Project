@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-08-16T15:45:21.668157" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Dropdowns" source="C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Dropdowns.robot">
+<test id="s1-s1-t1" name="Handling dropdown and Lists" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:45:23.017731" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:45:23.016841" elapsed="6.711095"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-16T15:45:29.728846" elapsed="3.966940"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:45:33.698080" level="INFO">Selecting options from selection list 'Colors' by label green.</msg>
+<msg time="2025-08-16T15:45:34.225640" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-08-16T15:45:34.226052" level="FAIL">List with locator 'Colors' not found.</msg>
+<arg>Colors</arg>
+<arg>green</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="FAIL" start="2025-08-16T15:45:33.696402" elapsed="0.545832">List with locator 'Colors' not found.</status>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<arg>Colors</arg>
+<arg>7</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="NOT RUN" start="2025-08-16T15:45:34.242763" elapsed="0.000208"/>
+</kw>
+<status status="FAIL" start="2025-08-16T15:45:23.014371" elapsed="11.229069">List with locator 'Colors' not found.</status>
+</test>
+<status status="FAIL" start="2025-08-16T15:45:21.812396" elapsed="12.432664"/>
+</suite>
+<status status="FAIL" start="2025-08-16T15:45:21.761942" elapsed="12.485249"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="Dropdowns" id="s1-s1" pass="0" fail="1" skip="0">Suites.Dropdowns</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-16T15:45:21.648984" level="WARN">Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

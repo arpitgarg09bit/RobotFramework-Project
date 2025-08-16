@@ -1,0 +1,3 @@
+[ WARN ] Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.
+[ WARN ] Multiple tests with name 'LoginTestwithCsv' executed in suite 'Suites.DDT2 CSV'.
+[ WARN ] Multiple tests with name 'LoginTestwithCsv' executed in suite 'Suites.DDT2 CSV'.

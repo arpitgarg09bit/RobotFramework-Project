@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-08-16T15:45:42.012759" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="GetAllLinks" source="C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\GetAllLinks.robot">
+<test id="s1-s1-t1" name="GETALLLINKS" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:45:43.499245" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:45:43.498274" elapsed="8.524107"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:45:52.037479" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</msg>
+<msg time="2025-08-16T15:45:52.038577" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2025-08-16T15:45:52.022960" elapsed="0.029214">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</kw>
+<kw name="Get Element Count" owner="SeleniumLibrary">
+<var>${GETELEMENTCOUNT}</var>
+<arg>xpath://a</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<status status="NOT RUN" start="2025-08-16T15:45:52.052726" elapsed="0.000197"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${GETELEMENTCOUNT}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-08-16T15:45:52.053274" elapsed="0.000205"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<var>@{Linkitems}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="NOT RUN" start="2025-08-16T15:45:52.053787" elapsed="0.000193"/>
+</kw>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${Linktext}</var>
+<arg>xpath:(//a)[${i}]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-08-16T15:45:52.055376" elapsed="0.000220"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Linktext}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-08-16T15:45:52.056052" elapsed="0.000227"/>
+</kw>
+<var name="${i}"/>
+<status status="NOT RUN" start="2025-08-16T15:45:52.054823" elapsed="0.001630"/>
+</iter>
+<var>${i}</var>
+<value>1</value>
+<value>${GETELEMENTCOUNT}</value>
+<status status="NOT RUN" start="2025-08-16T15:45:52.054258" elapsed="0.002398"/>
+</for>
+<status status="FAIL" start="2025-08-16T15:45:43.494976" elapsed="8.562320">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</test>
+<status status="FAIL" start="2025-08-16T15:45:42.254972" elapsed="9.804314"/>
+</suite>
+<status status="FAIL" start="2025-08-16T15:45:42.147454" elapsed="9.914051"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="1" skip="0">Suites</stat>
+<stat name="GetAllLinks" id="s1-s1" pass="0" fail="1" skip="0">Suites.GetAllLinks</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-16T15:45:41.986873" level="WARN">Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-08-16T15:45:52.037479" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</msg>
+</errors>
+</robot>

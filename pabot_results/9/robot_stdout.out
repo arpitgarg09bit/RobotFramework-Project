@@ -1,0 +1,46 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.GetAllLinks                                                            
+==============================================================================
+GETALLLINKS                                                             
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\GetAllLinks.robot:11
+    T:  GETALLLINKS    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\GetAllLinks.robot:13
+      Maximize Browser Window    
+______________________________________________________________________________
+| FAIL |
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+------------------------------------------------------------------------------
+Suites.GetAllLinks                                                    | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\pabot_results\9\output.xml

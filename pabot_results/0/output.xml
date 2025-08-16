@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-08-16T15:43:32.600747" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Alerts" source="C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Alerts.robot">
+<test id="s1-s1-t1" name="MyTest Case" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:43:33.322131" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>${url1}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:43:33.321324" elapsed="13.431778"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-08-16T15:43:46.753976" elapsed="0.077232"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>2 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2025-08-16T15:43:46.831821" elapsed="0.000992"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:43:46.834449" level="INFO">Clicking element 'xpath://button[@id='confirmBtn']'.</msg>
+<arg>xpath://button[@id='confirmBtn']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-08-16T15:43:46.833288" elapsed="4.340594"/>
+</kw>
+<kw name="Alert Should Be Present" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:43:51.174727" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<arg>Press a button!</arg>
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<status status="PASS" start="2025-08-16T15:43:51.174318" elapsed="6.094049"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:43:33.319150" elapsed="23.951016"/>
+</test>
+<status status="PASS" start="2025-08-16T15:43:32.672354" elapsed="24.599375"/>
+</suite>
+<status status="PASS" start="2025-08-16T15:43:32.646570" elapsed="24.718765"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Alerts" id="s1-s1" pass="1" fail="0" skip="0">Suites.Alerts</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-16T15:43:32.591260" level="WARN">Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>

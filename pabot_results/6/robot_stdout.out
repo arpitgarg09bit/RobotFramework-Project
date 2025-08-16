@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Dropdowns                                                              
+==============================================================================
+Handling dropdown and Lists                                             
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Dropdowns.robot:10
+    T:  Handling dropdown and Lists    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Dropdowns.robot:20
+      Select From List By Label    Colors    green
+______________________________________________________________________________
+| FAIL |
+List with locator 'Colors' not found.
+------------------------------------------------------------------------------
+Suites.Dropdowns                                                      | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\pabot_results\6\output.xml

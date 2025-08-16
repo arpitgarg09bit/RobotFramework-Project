@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Frames                                                                 
+==============================================================================
+TestingFrames                                                           
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Frames.robot:11
+    T:  TestingFrames    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\Frames.robot:20
+      Select Frame    Child Iframe
+______________________________________________________________________________
+| FAIL |
+Element with locator 'Child Iframe' not found.
+------------------------------------------------------------------------------
+Suites.Frames                                                         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\pabot_results\8\output.xml

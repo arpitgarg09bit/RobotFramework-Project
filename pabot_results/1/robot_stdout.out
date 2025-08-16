@@ -1,0 +1,24 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.CaptureScreen                                                          
+==============================================================================
+LoginTC                                                                 
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\CaptureScreen.robot:10
+    T:  LoginTC    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\CaptureScreen.robot:13
+      Wait Until Page Contains    Login
+______________________________________________________________________________
+| FAIL |
+Text 'Login' did not appear in 5 seconds.
+------------------------------------------------------------------------------
+Suites.CaptureScreen                                                  | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\pabot_results\1\output.xml

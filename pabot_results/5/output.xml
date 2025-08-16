@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.3 on win32)" generated="2025-08-16T15:45:02.462053" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="DDT2 Excel" source="C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\DDT2_Excel.robot">
+<kw name="open my browser" owner="login_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:45:07.066527" level="INFO">Opening browser 'chrome' to base url 'https://practicetestautomation.com/practice-test-login/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-16T15:45:07.065688" elapsed="7.679447"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2025-08-16T15:45:14.752386" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</msg>
+<msg time="2025-08-16T15:45:14.753759" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2025-08-16T15:45:14.745880" elapsed="0.027491">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</kw>
+<status status="FAIL" start="2025-08-16T15:45:07.063446" elapsed="7.711607">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</kw>
+<test id="s1-s1-t1" name="LoginTestwithExcel" line="11">
+<status status="FAIL" start="2025-08-16T15:45:14.775462" elapsed="0.003445">Parent suite setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</test>
+<test id="s1-s1-t2" name="LoginTestwithExcel" line="11">
+<status status="FAIL" start="2025-08-16T15:45:14.780112" elapsed="0.005477">Parent suite setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</test>
+<test id="s1-s1-t3" name="LoginTestwithExcel" line="11">
+<status status="FAIL" start="2025-08-16T15:45:14.792670" elapsed="0.003246">Parent suite setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</test>
+<kw name="Close Browsers" owner="login_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-08-16T15:45:14.798996" elapsed="4.533916"/>
+</kw>
+<status status="PASS" start="2025-08-16T15:45:14.798196" elapsed="4.535039"/>
+</kw>
+<status status="FAIL" start="2025-08-16T15:45:02.574642" elapsed="16.758739">Suite setup failed:
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</status>
+</suite>
+<status status="FAIL" start="2025-08-16T15:45:02.529944" elapsed="16.806125"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="0" fail="3" skip="0">Suites</stat>
+<stat name="DDT2 Excel" id="s1-s1" pass="0" fail="3" skip="0">Suites.DDT2 Excel</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-16T15:45:02.450125" level="WARN">Error in file 'C:\Users\arpgar01\PycharmProjects\PythonProject1\TestProject\TestCases\UserKeywords.robot' on line 31: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-08-16T15:45:14.752386" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff639bb6b25+79621]
+	GetHandleVerifier [0x0x7ff639bb6b80+79712]
+	(No symbol) [0x0x7ff63994c0ea]
+	(No symbol) [0x0x7ff639924601]
+	(No symbol) [0x0x7ff6399d25fe]
+	(No symbol) [0x0x7ff6399f2d02]
+	(No symbol) [0x0x7ff6399caf13]
+	(No symbol) [0x0x7ff639994151]
+	(No symbol) [0x0x7ff639994ee3]
+	GetHandleVerifier [0x0x7ff639e7683d+2962461]
+	GetHandleVerifier [0x0x7ff639e70b5d+2938685]
+	GetHandleVerifier [0x0x7ff639e8f71d+3064573]
+	GetHandleVerifier [0x0x7ff639bd0c6e+186446]
+	GetHandleVerifier [0x0x7ff639bd8a3f+218655]
+	GetHandleVerifier [0x0x7ff639bbf914+115956]
+	GetHandleVerifier [0x0x7ff639bbfac9+116393]
+	GetHandleVerifier [0x0x7ff639ba5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffc3a70e8d7+23]
+	RtlUserThreadStart [0x0x7ffc3b53c34c+44]
+</msg>
+<msg time="2025-08-16T15:45:14.780337" level="WARN">Multiple tests with name 'LoginTestwithExcel' executed in suite 'Suites.DDT2 Excel'.</msg>
+<msg time="2025-08-16T15:45:14.792876" level="WARN">Multiple tests with name 'LoginTestwithExcel' executed in suite 'Suites.DDT2 Excel'.</msg>
+</errors>
+</robot>
